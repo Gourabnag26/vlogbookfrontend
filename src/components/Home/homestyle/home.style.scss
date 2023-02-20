@@ -1,0 +1,43 @@
+
+.home{
+ 
+  #fom2{
+    @media screen and (max-width: 600px) {
+    margin: auto;
+    max-width: 300px;
+    }
+  }
+  #fom1{
+    @media screen and (max-width: 600px) {
+   max-width:200px;
+    }
+  }
+    @media screen and (max-width: 600px) {
+        margin:300px auto 20px;
+        
+
+      }
+      .container{
+        .g1,.g2,.g3
+        { @media screen and (max-width: 600px) {
+          gap:5px;
+        }
+          display: flex;
+          gap:30px;
+          
+        }
+       @media screen and (max-width: 600px) {
+        margin-top: 40px;
+        transform: translateX(-10px);
+        display: flex;
+        margin-left: auto;
+        flex-direction: column;
+        max-width: 300px;
+        
+      }
+    }
+    
+ 
+  
+    }
+  

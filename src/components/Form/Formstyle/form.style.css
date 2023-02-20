@@ -1,0 +1,57 @@
+#sear {
+  display: grid;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+form {
+  padding-top: 100px;
+  max-width: 600px;
+  margin: auto;
+}
+@media screen and (max-width: 600px) {
+  form {
+    max-width: 300px;
+    padding: 0 20px;
+  }
+}
+form .formhead {
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 600px) {
+  form .formhead {
+    max-width: 300px;
+    margin: 30px auto 30px;
+    transform: translateX(-20px);
+  }
+}
+form .but {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 30px 0;
+}
+form #maprouter iframe {
+  width: 600px !important;
+  height: 600px !important;
+  overflow: none !important;
+  top: 400px;
+}
+@media screen and (max-width: 600px) {
+  form #maprouter iframe {
+    max-width: 250px !important;
+    max-height: 250px !important;
+  }
+}
+form .frame iframe {
+  width: 900px !important;
+  height: 600px !important;
+  overflow: none !important;
+  top: 400px;
+}
+@media screen and (max-width: 600px) {
+  form .frame iframe {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}/*# sourceMappingURL=form.style.css.map */

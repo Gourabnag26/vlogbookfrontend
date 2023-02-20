@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+  .home #fom2 {
+    margin: auto;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home #fom1 {
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home {
+    margin: 300px auto 20px;
+  }
+}
+.home .container .g1, .home .container .g2, .home .container .g3 {
+  display: flex;
+  gap: 30px;
+}
+@media screen and (max-width: 600px) {
+  .home .container .g1, .home .container .g2, .home .container .g3 {
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home .container {
+    margin-top: 40px;
+    transform: translateX(-10px);
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=home.style.css.map */

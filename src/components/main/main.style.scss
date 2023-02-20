@@ -1,0 +1,16 @@
+.mainpage{
+    
+    max-width: 100% !important;
+    @media screen and (max-width: 600px) {
+    overflow-x: hidden !important;
+    }
+   
+   
+}   
+#nav{
+    @media screen and (max-width: 600px) {
+      display: flex;
+      max-width: 500px;
+        
+    }
+}

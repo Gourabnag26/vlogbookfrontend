@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+  .card {
+    max-width: 320px;
+    display: grid;
+    margin: auto;
+  }
+  .card img {
+    max-width: 300px;
+    height: 200px !important;
+  }
+  .card iframe {
+    max-width: 250px;
+  }
+}
+.card .head {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.card .left .heading {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+@media screen and (max-width: 600px) {
+  .card .left .heading {
+    font-size: 15px;
+  }
+}
+.card .left .moment {
+  font-size: 15px;
+}
+.card .right {
+  margin-left: auto;
+}/*# sourceMappingURL=post.style.css.map */
